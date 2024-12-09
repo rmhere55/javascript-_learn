@@ -55,3 +55,4 @@ if(k){
 else{
     console.log("hello");
 }
+console.log(k)
