@@ -1,12 +1,57 @@
 // set 
 // arr
+
+//  var a = {
+//     name  : "RM",
+//     age: 24
+//  }
+
+//  delete a.age
+
+//  console.log(a) // { name: 'RM' }
+ //   copy referance 
+//  var a = 20;
+//  var b = a;
+//  b = 30;
+//  console.log(a) 
+//  console.log(b) 
+//    arr
 let arr = [1,3,4,3]
 
-arr.push(5)
-console.log(arr) // [1, 3, 4, 3, 5]
-console.log(Math.max(...arr)); // Outputs the maximum value in the array
-console.log(Math.min(...arr)); // Outputs the min value in the array
-console.log(Math.random(...arr)); // Outputs the random value in the array
-console.log(Math.ceil(...arr)); // Outputs the ceil value in the array
-console.log(Math.floor(...arr)); // Outputs the ceil value in the array
-// console.log(Math.round(...arr)); // Outputs the ceil value in the array
+var b = [...arr]
+console.log(arr);
+b.pop()
+console.log(b);
+console.log(arr);
+
+
+var obj = {
+    name :"raj"
+}
+ var o1 = {...obj}
+console.log(o1);
+console.log(obj);
+
+//  truthy   and falsy
+// truthy  all type of value
+//  falsy values
+
+// 0  false undefined  null NAN document.all 
+ var h = 0
+if(h){
+    console.log("h")
+}
+else{
+    console.log("hello");
+    
+}
+
+//  truthy 
+var k = -1
+if(k){
+    console.log("h")
+
+}
+else{
+    console.log("hello");
+}
