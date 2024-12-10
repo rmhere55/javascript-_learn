@@ -56,3 +56,8 @@ else{
     console.log("hello");
 }
 console.log(k)
+
+// array.forEach(element => {
+    
+// });
+// for 
