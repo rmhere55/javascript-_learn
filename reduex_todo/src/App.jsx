@@ -1,7 +1,7 @@
 
 import './App.css'
 import Addtodo from './components/Addtodo'
-import Todo from './components/todo'
+import Todo from './components/Todo'
 
 function App() {
   // const [count, setCount] = useState(0)
