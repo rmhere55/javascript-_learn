@@ -50,9 +50,12 @@
 
 // add(2,5);
 
+
+
 // function
 // keyword 
-// return new this return let const var 
+
+// return new this  let const var 
 // normal function
 
 // function a(){
@@ -67,33 +70,85 @@
 
 // keyword
 // new  this  return  let const var 
-
-function hy(){
-    return (
-        console.log("hyy")
-     )
-}
+// let v =0 , 
+// vr = 99
+// function hy(){
+//     return    
+//     (   
+//         console.log("hyy")
+//     ) 
+// }
 
 // hy()
 
 // callback  function 
 
-function print(ans){
-    console.log(ans) ; 
-}
+// function print(ans){
+//     console.log(ans) ; 
+// }
+
+// function mul(a,b){
+//     print(a*b);
+//     // print(5*6= 30)
+// }
+
+// mul(5,6);  // 30
+// function add(a, b){
+//      print(a+b)
+// }
+// function sub(a, b){
+//      print(a-b)
+// }
 
 
-function add(a, b){
-     print(a+b)
-}
-function sub(a, b){
-     print(a-b)
-}
+// setTimeout(
+//     function (){
+//     console.log("hyyy2sec");
+// } 
+// ,2000)
+
+// add(2,5);
+// sub(2,77777);
+
+// Anonymous Function 
+
+// const multiply = function(a, b) {
+//     return a * b;
+//   };
+  
+//   console.log(multiply(4, 5)); // Output: 20
+
+//   arrow function
+
+//   const subtract = (a, b) => a - b;
+
+//   console.log(subtract(10, 6)); // Output: 4
 
 
-setTimeout(function (){
-    console.log("hyyy2sec");
-} ,2000)
+// FIRST CLASS FUNCTION 
+// const greet = function(name) {
+//     return `HELLO ${name}`;
+//   };
+  
+//   console.log(greet("Alice")); // Output: Hello, Alice!
 
-add(2,5);
-sub(2,77777);
+  
+//   function execute(fn, value) {
+//     return fn(value);
+//   }
+  
+//   const sayHi = (name) => `Hi, ${name}!`;
+
+//   console.log(execute(sayHi, "Bob")); // Output: Hi, Bob!
+
+  
+  function multiplier(factor) {
+    return function(number) {
+      return number * factor;
+    };
+  }
+  
+  const double = multiplier(2);
+  console.log(double(5)); // Output: 10
+  
+    
