@@ -70,13 +70,14 @@
 
 // keyword
 // new  this  return  let const var 
-// let v =0 , 
+// let v =0 , vt = 0
 // vr = 99
 // function hy(){
-//     return    
-//     (   
-//         console.log("hyy")
-//     ) 
+//     // return    
+//   return(
+    
+//     console.log("hy")
+// )
 // }
 
 // hy()
@@ -120,31 +121,35 @@
 
 //   arrow function
 
-//   const subtract = (a, b) => a - b;
+  // const subtract = (a, b) => a - b;
 
-//   console.log(subtract(10, 6)); // Output: 4
+  // console.log(subtract(10, 6)); // Output: 4
 
 
 // FIRST CLASS FUNCTION 
+// let vet = "hyyy"
 // const greet = function(name) {
-//     return `HELLO ${name}`;
+//     return `HELLO ${name} , ${vet}`;
 //   };
   
-//   console.log(greet("Alice")); // Output: Hello, Alice!
+  // console.log(greet("Alice")); // Output: Hello, Alice!
 
   
-//   function execute(fn, value) {
-//     return fn(value);
-//   }
+  // function execute(fn, value) {
+  //   return fn(value);
+  // }
   
-//   const sayHi = (name) => `Hi, ${name}!`;
+  // const sayHi = (name) => `Hi, ${name}!`;
 
-//   console.log(execute(sayHi, "Bob")); // Output: Hi, Bob!
+  // console.log(execute(sayHi, "Bob")); // Output: Hi, Bob!
+
+// keyword
+// return  this new let const var
 
   
   function multiplier(factor) {
     return function(number) {
-      return number * factor;
+      return number + factor;
     };
   }
   
